@@ -1,940 +1,681 @@
-<!--
-*项目名: 个人简历
-*创建者: Edit
-*创建时间:2020.2.15 20:40:41
-*联系方式:15622749328(微信同号)
-*描述: 酷炫个人简历
--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Edit-个人简历</title>
-    <style id="styleContent"></style>
-    <style>
-
-/*
-*项目名: 个人简历
-*创建者: Edit
-*创建时间:2020.2.15 20:40:41
-*联系方式:15622749328(微信同号)
-*描述: 酷炫个人简历
-*/
-
-*{margin:0;padding: 0;box-sizing: border-box;}
+<meta charset="UTF-8">
+<title>龚建涛--简历</title>
+<style>
+@keyframes mytranslateY{100%{transform:translateY(0);-ms-transform:translateY(0);-moz-transform:translateY(0);-webkit-transform:translateY(0);-o-transform:translateY(0);filter:alpha(opacity=100);-moz-opacity:1;-khtml-opacity:1;opacity:1;display:block}}@-moz-keyframes mytranslateY{100%{transform:translateY(0);-ms-transform:translateY(0);-moz-transform:translateY(0);-webkit-transform:translateY(0);-o-transform:translateY(0);filter:alpha(opacity=100);-moz-opacity:1;-khtml-opacity:1;opacity:1}}@-webkit-keyframes mytranslateY{100%{transform:translateY(0);-ms-transform:translateY(0);-moz-transform:translateY(0);-webkit-transform:translateY(0);-o-transform:translateY(0);filter:alpha(opacity=100);-moz-opacity:1;-khtml-opacity:1;opacity:1}}@-o-keyframes mytranslateY{100%{transform:translateY(0);-ms-transform:translateY(0);-moz-transform:translateY(0);-webkit-transform:translateY(0);-o-transform:translateY(0);filter:alpha(opacity=100);-moz-opacity:1;-khtml-opacity:1;opacity:1}}@keyframes myscale{0%{transform:scale(1.6);-ms-transform:scale(1.6);-moz-transform:scale(1.6);-webkit-transform:scale(1.6);-o-transform:scale(1.6)}100%{transform:scale(1);-ms-transform:scale(1);-moz-transform:scale(1);-webkit-transform:scale(1);-o-transform:scale(1)}}@-moz-keyframes myscale{0%{transform:scale(1.6);-ms-transform:scale(1.6);-moz-transform:scale(1.6);-webkit-transform:scale(1.6);-o-transform:scale(1.6)}100%{transform:scale(1);-ms-transform:scale(1);-moz-transform:scale(1);-webkit-transform:scale(1);-o-transform:scale(1)}}@-webkit-keyframes myscale{0%{transform:scale(1.6);-ms-transform:scale(1.6);-moz-transform:scale(1.6);-webkit-transform:scale(1.6);-o-transform:scale(1.6)}100%{transform:scale(1);-ms-transform:scale(1);-moz-transform:scale(1);-webkit-transform:scale(1);-o-transform:scale(1)}}@-o-keyframes myscale{0%{transform:scale(1.6);-ms-transform:scale(1.6);-moz-transform:scale(1.6);-webkit-transform:scale(1.6);-o-transform:scale(1.6)}100%{transform:scale(1);-ms-transform:scale(1);-moz-transform:scale(1);-webkit-transform:scale(1);-o-transform:scale(1)}}@keyframes to_top{0%{opacity:0}100%{transform:scale(1);-ms-transform:scale(1);-moz-transform:scale(1);-webkit-transform:scale(1);-o-transform:scale(1)}}@-moz-keyframes to_top{0%{transform:scale(1.6);-ms-transform:scale(1.6);-moz-transform:scale(1.6);-webkit-transform:scale(1.6);-o-transform:scale(1.6)}100%{transform:scale(1);-ms-transform:scale(1);-moz-transform:scale(1);-webkit-transform:scale(1);-o-transform:scale(1)}}@-webkit-keyframes to_top{0%{transform:scale(1.6);-ms-transform:scale(1.6);-moz-transform:scale(1.6);-webkit-transform:scale(1.6);-o-transform:scale(1.6)}100%{transform:scale(1);-ms-transform:scale(1);-moz-transform:scale(1);-webkit-transform:scale(1);-o-transform:scale(1)}}@-o-keyframes to_top{0%{transform:scale(1.6);-ms-transform:scale(1.6);-moz-transform:scale(1.6);-webkit-transform:scale(1.6);-o-transform:scale(1.6)}100%{transform:scale(1);-ms-transform:scale(1);-moz-transform:scale(1);-webkit-transform:scale(1);-o-transform:scale(1)}}@keyframes to_width{0%{width:0;filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity:0;opacity:0}50%{width:40%;filter:alpha(opacity=50);-moz-opacity:.5;-khtml-opacity:.5;opacity:.5}100%{width:80%;filter:alpha(opacity=100);-moz-opacity:1;-khtml-opacity:1;opacity:1}}@-moz-keyframes to_width{0%{width:80%;filter:alpha(opacity=100);-moz-opacity:1;-khtml-opacity:1;opacity:1}25%{width:40%;filter:alpha(opacity=50);-moz-opacity:.5;-khtml-opacity:.5;opacity:.5}50%{width:0;filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity:0;opacity:0}75%{width:40%;filter:alpha(opacity=50);-moz-opacity:.5;-khtml-opacity:.5;opacity:.5}100%{width:80%;filter:alpha(opacity=100);-moz-opacity:1;-khtml-opacity:1;opacity:1}}@-webkit-keyframes to_width{0%{width:80%;filter:alpha(opacity=100);-moz-opacity:1;-khtml-opacity:1;opacity:1}25%{width:40%;filter:alpha(opacity=50);-moz-opacity:.5;-khtml-opacity:.5;opacity:.5}50%{width:0;filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity:0;opacity:0}75%{width:40%;filter:alpha(opacity=50);-moz-opacity:.5;-khtml-opacity:.5;opacity:.5}100%{width:80%;filter:alpha(opacity=100);-moz-opacity:1;-khtml-opacity:1;opacity:1}}@-o-keyframes to_width{0%{width:80%;filter:alpha(opacity=100);-moz-opacity:1;-khtml-opacity:1;opacity:1}25%{width:40%;filter:alpha(opacity=50);-moz-opacity:.5;-khtml-opacity:.5;opacity:.5}50%{width:0;filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity:0;opacity:0}75%{width:40%;filter:alpha(opacity=50);-moz-opacity:.5;-khtml-opacity:.5;opacity:.5}100%{width:80%;filter:alpha(opacity=100);-moz-opacity:1;-khtml-opacity:1;opacity:1}}@keyframes left_widthbigger{0%{width:0%}100%{width:100%}}@-moz-keyframes left_widthbigger{0%{width:0%}100%{width:100%}}@-webkit-keyframes left_widthbigger{0%{width:0%}100%{width:100%}}@-o-keyframes left_widthbigger{0%{width:0%}100%{width:100%}}@keyframes left_widthsmaller{0%{width:100%}100%{width:0%}}@-moz-keyframes left_widthsmaller{0%{width:100%}100%{width:0%}}@-webkit-keyframes left_widthsmaller{0%{width:100%}100%{width:0%}}@-o-keyframes left_widthsmaller{0%{width:100%}100%{width:0%}}@keyframes move_left{0%{width:0%}50%{width:40%}100%{width:80%}}@-moz-keyframes left_width{0%{width:0%}50%{width:40%}100%{width:80%}}@-webkit-keyframes left_width{0%{width:0%}50%{width:40%}100%{width:80%}}@-o-keyframes left_width{0%{width:0%}50%{width:40%}100%{width:80%}}@font-face{font-family:'youyuan';src:url("../fonts/youyuan.TTF")}*{margin:0;padding:0;text-decoration:none;list-style:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;font-family:'youyuan';font-weight:normal}html{font-size:62.5%;width:100%;overflow:hidden}body{font-size:1.4rem;overflow:hidden}a{color:#fff}h1{margin:30px 0 50px;font-size:3rem}h2{margin:20px 0}h3{margin:20px 0}table{border-collapse:collapse}input,textarea,button{outline:none;padding:12px;font-size:1.4rem;border:1px solid #e5e5e5;background:none}.clear_both{clear:both}section{width:100%}section.page_one{background:url(../images/bg1.png) no-repeat center center;animation:0.4s myscale 1;color:#fff}section.page_two .con_wrap,section.page_three .con_wrap,section.page_four .con_wrap,section.page_five .con_wrap,section.page_six .con_wrap{transform:translateY(200px);-ms-transform:translateY(200px);-moz-transform:translateY(200px);-webkit-transform:translateY(200px);-o-transform:translateY(200px);filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity:0;opacity:0;animation:1s mytranslateY;animation-fill-mode:forwards;-webkit-animation-fill-mode:forwards}.page_one{display:none}.page_two{display:none;background:#F4F4F4}.page_three{display:none;background:#fff}.page_four{display:none;background:#F4F4F4}.page_five{display:none;background:#fff}.con_wrap{width:60%;margin:0 auto 0;padding:2rem 0;overflow:hidden}.tit_wrap{text-align:center}.tit_wrap h1{width:100%;margin:30px auto 50px;position:relative;line-height:4.2rem}.tit_wrap h1:after{content:"";width:100%;position:absolute;bottom:-20px;left:0;border:1px dashed #9eddf2;-webkit-animation:25s left_widthsmaller linear 1s infinite;-moz-animation:25s left_widthsmaller linear 1s infinite;-ms-animation:25s left_widthsmaller linear 1s infinite;-o-animation:25s left_widthsmaller linear 1s infinite;animation:25s left_widthsmaller linear 1s infinite}.tit_wrap .scissors{width:0%;height:20px;position:absolute;top:113px;right:0;-webkit-animation:25s left_widthbigger linear 1s infinite;-moz-animation:25s left_widthbigger linear 1s infinite;-ms-animation:25s left_widthbigger linear 1s infinite;-o-animation:25s left_widthbigger linear 1s infinite;animation:25s left_widthbigger linear 1s infinite}.tit_wrap .scissors span{width:20px;height:20px;float:left;background:url(../images/sprite_img.png) no-repeat -37px -50px}.tit_wrap h2{margin:60px 0 0 0}.tit_wrap+div{margin:40px 0 0 0}aside{width:40px;display:block;position:fixed;top:42%;right:10px;transform:translate(-42%, 0);-webkit-transform:translate(-42%, 0);-moz-transform:translate(-42%, 0);-ms-transform:translate(-42%, 0);-o-transform:translate(-42%, 0)}aside a{width:14px;height:14px;display:block;position:relative;margin:25px 0;border-radius:50%;background:#d9d9d9;cursor:pointer}aside a span{width:60px;height:20px;display:none;position:absolute;top:-2px;color:#80d6f2;right:25px;font-size:1.6rem;text-align:right}aside a:hover span{display:block}aside .cur_a{background:#80d6f2}aside .cur_a span{color:#80d6f2;text-decoration:underline}nav{width:100%;position:relative}nav .nav_wrap{width:80%;margin:0 auto;padding:2.4rem 0;overflow:hidden}.resume_logo{width:20%;float:left}.resume_logo a{font-size:5rem}.nav_bar{width:60%;float:right}.nav_bar ul li{width:20%;float:left;font-size:1.8rem}.nav_bar ul li a{display:block;padding:2rem 0;margin:0 1.4rem;text-align:center;color:#fff;position:relative;transition:color .5s ease-in;-moz-transition:color .5s ease-in;-webkit-transition:color .5s ease-in;-o-transition:color .5s ease-in}.nav_bar ul li a:hover{color:#80d6f2}.nav_bar ul li a:after{width:0;height:1px;content:"";position:absolute;left:0;bottom:10px;background:#80d6f2;transition:width .5s ease-in;-moz-transition:width .5s ease-in;-webkit-transition:width .5s ease-in;-o-transition:width .5s ease-in}.nav_bar ul li a:hover:after{width:100%}.cen_con{width:50%;height:60%;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);-webkit-transform:translate(-50%, -50%);-moz-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);-o-transform:translate(-50%, -50%);text-align:center;overflow:hidden}.portrait{height:32%;margin:0 auto 8%;padding:6px;text-align:center}.portrait img{height:100%;vertical-align:middle;border-radius:50%}.cen_text{height:60%}.cen_text h2{height:18%;min-height:38px;margin:0}.cen_text h3{height:18%;min-height:32px;margin:0}.cen_text hr{width:100%;height:1px;background:#999999;border:0;margin:0 auto 5% auto;filter:alpha(opacity=100);-moz-opacity:1;-khtml-opacity:1;opacity:1;-webkit-animation:1s to_width ease-in 0s 1;-moz-animation:1s to_width ease-in 0s 1;-ms-animation:1s to_width ease-in 0s 1;-o-animation:1s to_width ease-in 0s 1;animation:1s to_width ease-in 0s 1;animation-fill-mode:forwards;-webkit-animation-fill-mode:forwards}.down_arrow{width:100%;height:80px;position:fixed;bottom:0px;left:0}.down_arrow a{width:51px;height:51px;border-radius:50%;border:1px solid #fff;display:block;margin:0 auto;cursor:pointer}.down_arrow a span{width:18px;height:18px;display:block;margin:15px;background:url(../images/sprite_img.png) no-repeat -18px -50px;transition:background .5s ease-in;-moz-transition:background .5s ease-in;-webkit-transition:background .5s ease-in;-o-transition:background .5s ease-in}.down_arrow a:hover{border:1px solid #80d6f2}.down_arrow a:hover span{background:url(../images/sprite_img.png) no-repeat -18px -50px}.myinfo{width:100%;float:left;padding:0 20px}.myinfo table{width:100%;margin:20px auto}.myinfo table tr td{font-size:1.8rem;padding:15px 15px 15px 30px;text-align:left}.myinfo table tr td img{border-radius:50%}.myinfo table tr td span{width:30px;height:30px;display:block}.myinfo table tr td a{color:#666}.myinfo table tr:last-child td p{padding:10px 0 0 0}.skill_con{width:100%;overflow:hidden}.canvas_wrap{width:50%;float:left;overflow:hidden;padding:30px 0 0 0}.text_wrap{width:50%;float:left;padding:30px 0 0 20px}.text_wrap p{font-size:1.8rem;line-height:24px;padding:10px 0}.canvas_con{width:160px;height:160px;margin:10px 15px;float:left;position:relative}.text_con{width:160px;height:80px;position:absolute;top:25px;left:0;text-align:center;padding:20px}.text_con p{font-size:2.4rem;line-height:2.9rem;font-weight:bold}.work_con{position:relative}.work_text{width:100%;padding:0 0 47px 159px;position:relative}.work_text:nth-child(2){padding:10px 0 47px 159px}.work_text:after{width:100%;height:100%;content:"";position:absolute;top:0;left:140px;border-left:solid 1px #80d6f2}.work_con:last-child .work_text{padding-bottom:0px}.programe{position:relative;overflow:hidden}.work_time{width:120px;height:120px;float:left;padding:40px 0 40px 0;font-size:1.7rem;color:#fff;background:#E86064;text-align:center;-webkit-border-radius:50%;border-radius:50%;position:absolute;top:20px;left:0}.triangle-left{width:0;height:0;border-top:15px solid transparent;border-bottom:15px solid transparent;border-right:15px solid #fff;position:absolute;top:20px;left:160px}.arrowpart{float:left;width:15px;height:50px;background:url(../images/arrow-left.png) no-repeat 0 23px}.exCon{background:#fff;border-bottom:solid 4px #e5e5e5;padding:22px 47px 20px 47px;margin-left:15px;text-align:left}.exCon h4{color:#666;padding-bottom:3px}.exCon h5{color:#666}.exCon p{color:#666;line-height:21px}ul.con_style{overflow:hidden;padding:0 0 20px 0}ul.con_style li{width:33.33%;float:left;margin:20px 0;overflow:hidden}ul.con_style li span{width:50px;height:50px;display:block;margin:0 auto 20px;background:url("../images/sprite_img.png")}ul.con_style li p{text-align:center;font-size:1.8rem}ul.con_style li p a{color:#333}ul.con_style li:nth-child(1) span{background-position:0 -70px}ul.con_style li:nth-child(2) span{background-position:-50px -70px}ul.con_style li:nth-child(3) span{background-position:-100px -70px}.contact_info{width:100%}.contact_info form{width:100%;overflow:hidden;padding:5px 0}.contact_info form label{width:33.33%;padding:0 10px 0 0;height:70px;float:left}.contact_info form label p{color:red;line-height:2rem;padding:0 12px}.contact_info form label:nth-child(3){padding:0}.contact_info form label:nth-child(4){width:100%;height:215px;padding:0}.contact_info form input[type="text"]{width:100%;float:left;background:#ffffff;color:#333}.contact_info form textarea{width:100%;height:180px;background:#ffffff;resize:none;color:#333}.contact_info form button{color:#fff;padding:0.6em 1.4em;font-size:1.4rem;border-radius:4px;cursor:pointer;border:1px solid #5BA4E8;background:#5BA4E8}@media screen and (max-width: 1370px){.con_wrap{width:80%;padding:1rem 0}.tit_wrap+div{margin:10px 0 0 0}.tit_wrap h2{margin:0}.myinfo table tr:last-child td p{padding:0}.canvas_wrap{width:50%;float:left;overflow:hidden}.text_wrap{width:50%;float:left}.text_wrap p{display:inline-block;font-size:1.8rem;line-height:24px}.tit_wrap .scissors{top:101px}.text_wrap p{padding:4px 0}.canvas_con{margin:5px 10px}}
+/*# sourceMappingURL=main.css.map */
 body{
-    height: 100vh;
+  background-color: #5BA4E8;
 }
-li{list-style: none;}
-html{font-family: 宋体;}
-#codeEdit{
-    width: 48%;
-    height: 97vh;
-    margin: auto 0;
-}
-#resume{
-    width: 48%;
-    min-width: 700px;
-    margin: auto 0;
-    position: relative;
-    height: 97vh;
-    overflow-y: scroll;
-    display: flex;
-}
-.ul-list li::before{
-    content: '♦';
-    color: #78B1E8;
-    padding-right: 15px;
-    font-size: 20px;
-    font-family: '-webkit-pictograph';
-}
-.ul-list + .ul-list{
-    margin-top: 10px;
-}
-.tag{
-    color: #ff4614;
-}
-.footer-height{
-    height: 200px;
-}
-.mr{
-    margin-right: 40px;
-}
-body{
-    display: flex;
-    justify-content: space-around;
-}
-.balloon-wrap{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: 1;
-    pointer-events: none;
-    animation: balloon-ani .8s;
-}
-@keyframes balloon-ani{
-    0%{
-        left: -100vw;
-    }
-    20%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-        left: 0;
-    }
-}
-img[id*="bg-balloon-"]{
-    position: absolute;
-}
-img#bg-balloon-large{
-    transform: translateY(-17%);
-    right: -55px;
-}
-img#bg-balloon-small{
-    width: 135px;
-    right: 45px;
-    transform: translateY(-10%);
-}
-img#bg-balloon-logo{
-    height: 120px;
-    right: 0;
-}
-.line-wrap{
-    top: 0;
-    padding-left: 20px;
-    display: flex;
-    height: 100%;
-    animation: line-wrap-ani .8s;
-}
-@keyframes line-wrap-ani{
-    0%{
-        transform: translateX(100vw);
-    }
-    20%{
-        height: 0;
-    }
-    100%{
-        transform: translateX(0);
-        height: 100%;
-    }
-}
-.line-wrap > div{
-    width: 8px;
-    height: 100%;
-}
-.line-left{
-    background-color: #FFDF7F;
-    margin-right: 12px;
-}
-.line-right{
-    display: flex;
-    flex-direction: column;
-}
-.line-defColor{
-    background-color: #F3D383;
-}
-.line-midColor{
-    background-color: #F3C583;
-}
-.line-darkColor{
-    background-color: #EDAF45;
-}
-.line-item1{
-    height: 20%;
-}
-.line-item2{
-    height: 20px;
-    flex-shrink: 0;
-}
-.line-item3{
-    height: 30px;
-    flex-shrink: 0;
-}
-.line-item4{
-    height: 20%;
-    flex-shrink: 0;
-}
-.line-item5{
-    height: 25px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    flex-shrink: 0;
-}
-.line-item6{
-    height: 10%;
-    flex-shrink: 0;
-}
-.line-item7{
-    height: 8%;
-    flex-shrink: 0;
-}
-.line-item8{
-    height: 8%;
-    flex-shrink: 0;
-}
-.text-wrap{
-    margin-left: 30px;
-    padding: 40px 50px 40px 0;
-    font-size: 15px;
-    line-height: 1.5em;
-}
-.inten{
-    color: #EF8C06;
-}
-.text-title{
-    margin-top: 15px;
-    color: #548DD4;
-    margin-bottom: 5px;
-}
-.base-info{
-    display: flex;
-}
-.base-info>div:first-child{
-    margin-right: 100px;
-}
-.project-title{
-    font-weight: 700;
-}
-
-@media (min-width: 500px){
-    /* 滚动条美化 */
-    *::-webkit-scrollbar-track-piece {
-        background-color:#f8f8f8;
-    }
-    *::-webkit-scrollbar {
-        width: 5px;
-        height: 5px;
-    }
-    *::-webkit-scrollbar-thumb {
-        background-color: rgba(150, 150, 150, .2);
-        background-clip:padding-box;
-        min-height:28px;
-        border-radius: 5px;
-    }
-    *::-webkit-scrollbar-thumb:hover {
-        background-color:#bbb;
-    }
-    .sbShow::-webkit-scrollbar-thumb {
-        background-color: #ccc;
-        background-clip:padding-box;
-        min-height: 28px;
-        border-radius: 5px;
-    }
-}
-@media (max-width: 500px){
-    body{
-        flex-direction: column;
-    }
-    #resume,
-    #codeEdit{
-        height: 50vh!important;
-        width: 100vw!important;
-        min-width: 100vw!important;
-    }
-    .line-wrap{
-        padding-left: 5px;
-    }
-    .line-left{
-        padding-left: 8px;
-    }
-    .text-wrap{
-        margin-left: 15px;
-        padding: 60px 30px 40px 0;
-    }
-    img#bg-balloon-small {
-        width: 85px;
-        right: 32px;
-        transform: translateY(-10%);
-    }
-    img#bg-balloon-large {
-        transform: translateY(-17%);
-        right: -40px;
-        width: 105px;
-    }
-    img#bg-balloon-logo {
-        height: 62px;
-    }
-    .base-info{
-        display: block;
-    }
-    .school span{
-        display: block;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-code[class*="language-"],
-pre[class*="language-"] {
-	background: none;
-	/* text-shadow: 0 1px white; */
-	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	word-wrap: normal;
-	line-height: 1.5;
-
-	-moz-tab-size: 4;
-	-o-tab-size: 4;
-	tab-size: 4;
-
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
-}
-
-pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
-code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
-	text-shadow: none;
-	background: #b3d4fc;
-}
-
-pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
-code[class*="language-"]::selection, code[class*="language-"] ::selection {
-	text-shadow: none;
-	background: #b3d4fc;
-}
-
-@media print {
-	code[class*="language-"],
-	pre[class*="language-"] {
-		text-shadow: none;
-	}
-}
-
-/* Code blocks */
-pre[class*="language-"] {
-	padding: 1em;
-	margin: .5em 0;
-	overflow: auto;
-}
-
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-	/* background: #f5f2f0; */
-}
-
-/* Inline code */
-:not(pre) > code[class*="language-"] {
-	padding: .1em;
-	border-radius: .3em;
-	white-space: normal;
-}
-
-.token.punctuation {
-	color: #fff;
-}
-
-.namespace {
-	opacity: .7;
-}
-
-.token.attr-name,
-.token.string,
-.token.char,
-.token.builtin,
-.token.inserted {
-	color: #690;
-}
-
-.token.operator,
-.token.entity,
-.token.url,
-.language-css .token.string,
-.style .token.string {
-	color: #a67f59;
-	background: hsla(0, 0%, 100%, .5);
-}
-
-.token.atrule,
-.token.attr-value,
-.token.keyword {
-	color: #07a;
-}
-
-
-
-.token.regex,
-.token.important,
-.token.variable {
-	color: #e90;
-}
-
-.token.important,
-.token.bold {
-	font-weight: bold;
-}
-.token.italic {
-	font-style: italic;
-}
-
-.token.entity {
-	cursor: help;
-}
-
-
-    </style>
+</style>
 </head>
+
 <body>
-    <pre id="codeEdit" class="language-css" onscroll="toggleScrollBar(event)"></pre>
-    <div id="resume" onscroll="toggleScrollBar(event)"></div>
+<aside> <a class="cur_a"><span>首页</span></a> <a><span>关于我</span></a> <a><span>技能</span></a> <a><span>经验</span></a> <a><span>联系我</span></a> </aside>
+<section class="page_one" id="page1">
+  <nav>
+    <div class="nav_wrap">
+      <div class="resume_logo"> <a href="index.html">龚建涛简历</a> </div>
+      <div class="nav_bar">
+        <ul class="nav_bar_ul">
+          <li><a href="index.html">首页</a></li>
+          <li><a href="#">page2</a></li>
+          <li><a href="#">page3</a></li>
+          <li><a href="#">page4</a></li>
+          <li><a href="#">page5</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="cen_con">
+    <div class="portrait"> </div>
+    <div class="cen_text">
+      <h2>世上只有想不通的人，没有走不通的路。</h2>
+      <hr>
+      <h3>龚建涛</h3>
+      <h3>Web前端工程师</h3>
+      <h3>求职上海 / 苏州</h3>
+      <h3>19123910193</h3>
+    </div>
+  </div>
+  <div class="down_arrow"> <a class="scroll"><span></span></a> </div>
+</section>
+<section class="page_two" id="page2">
+  <div class="con_wrap">
+    <div class="tit_wrap">
+      <h1>关于我</h1>
+      <div class="scissors"> <span></span> </div>
+      <h2> 如果debugging是一种消灭bug的过程,那编程就一定是把bug放进去的过程。</h2>
+    </div>
+    <div class="myinfo">
+      <table>
+        <tbody>
+          <tr>
+            <td rowspan="6"><div style="width: 100px;height: 100px;background-color: #5BA4E8; border-radius: 20px; text-align: center; padding-top: 40px;">长相已注释</div></td>
+            <td>姓名 | 龚建涛</td>
+            <td>手机 | 19123910193</td>
+          </tr>
+          <tr>
+            <td>性别 | 男</td>
+            <td>邮箱 |3092976135@qq.com</td>
+          </tr>
+          <tr>
+            <td>出生 | 2005.7.10</td>
+            <td>QQ号 | 3092976135</td>
+          </tr>
+          <tr>
+            <td>居住 | 重庆九龙坡</td>
+            <td>户籍 | 重庆市垫江县</td>
+          </tr>
+          <tr>
+            <td>学历 | 专科</td>
+            <td>学校 | 重庆市聚英技工学校</td>
+          </tr>
+          <tr>
+            <td>专业 | 计算机应用与维修</td>
+            <td>普通话 | 普通话二级</td>
+          </tr>
+          <tr>
+            <td colspan="3"><p>项目：</p>
+              <br>
+              <a href="#">1. 重庆简介（基于重庆特色 查看网址：经费不足，没钱购置服务器）</a> <br>
+              <a>2. 筑梦航天-航天简介（基于css.bootstrap,js.Vue框架,查看网址：经费不足，没钱购置服务器）</a> <br>
+             </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="down_arrow"> <a class="scroll"><span></span></a> </div>
+</section>
+<section class="page_three" id="page3">
+  <div class="con_wrap">
+    <div class="tit_wrap">
+      <h1>技能</h1>
+      <div class="scissors"> <span></span> </div>
+      <h2>代码，我们眼中的世界，别人眼中的天书。</h2>
+    </div>
+    <div class="skill_con">
+      <div class="canvas_wrap">
+        <div class="canvas_con">
+          <div class="text_con">
+            <p class="percent">90%</p>
+            <p class="chart_title">HTML5</p>
+          </div>
+          <canvas id="html5" width=160 height=160></canvas>
+        </div>
+        <div class="canvas_con">
+          <div class="text_con">
+            <p class="percent">90%</p>
+            <p class="chart_title">CSS3</p>
+          </div>
+          <canvas id="css3" width=160 height=160></canvas>
+        </div>
+        <div class="canvas_con">
+          <div class="text_con">
+            <p class="percent">75%</p>
+            <p class="chart_title">JS</p>
+          </div>
+          <canvas id="js" width=160 height=160></canvas>
+        </div>
+        <div class="canvas_con">
+          <div class="text_con">
+            <p class="percent">80%</p>
+            <p class="chart_title">c++</p>
+          </div>
+          <canvas id="jq" width=160 height=160></canvas>
+        </div>
+        <div class="canvas_con">
+          <div class="text_con">
+            <p class="percent">70%</p>
+            <p class="chart_title">Vue</p>
+          </div>
+          <canvas id="bs" width=160 height=160></canvas>
+        </div>
+        <div class="canvas_con">
+          <div class="text_con">
+            <p class="percent">80%</p>
+            <p class="chart_title">PS</p>
+          </div>
+          <canvas id="ps" width=160 height=160></canvas>
+        </div>
+      </div>
+      <div class="text_wrap">
+        <p>1. 熟练HTML5，CSS3，JavaScript技术，开发符合W3C标准的前端网页。</p>
+        <p>2. 熟练使用jQuery，bootstrap等前端框架技术。</p>
+        <p>3. 熟悉sass工具，扩展css功能,提高css功能和效率。</p>
+        <p>4. 熟悉Ajax的运行机制，能使用ajax进行数据交互。</p>
+        <p>5. 熟练使用PS，墨刀等工具，能快速切图和搭建原型图。</p>
+        <p>6. 熟悉W3C标准，对表现与数据分离、Web语义化等有较为深刻的理解。</p>
+        <p>7. 精通流体布局和弹性布局，能适应各种分辨率。</p>
+        <p>8. 熟悉各种主流浏览器的差异性，有解决主流浏览器的兼容性问题的经验。</p>
+      </div>
+    </div>
+  </div>
+  <div class="down_arrow"> <a class="scroll"><span></span></a> </div>
+</section>
+<section class="page_four" id="page4">
+  <div class="con_wrap">
+    <div class="tit_wrap">
+      <h1>工作经验</h1>
+      <div class="scissors"> <span></span> </div>
+      <h2>我现在做的一切仅仅是为了不让未来的自己后悔。</h2>
+    </div>
+    <div class="work_con">
+      <div class="programe">
+        <div class="work_time">2个月 <br>
+         重庆简介</div>
+        <div class="work_text">
+          <div class="triangle-left"></div>
+          <div class="exCon">
+            <h4>开发时间：2022 /3--2022 /5</h4>
+            <h5>开发工具：IntelliJ IDEA，sublime text</h5>
+            <p>项目描述：</p>
+            <p>该项目是关于重庆加盟店内部使用的汽车保养网站。加盟店主要有汽车保养下单，排班，考勤，
+              申请补货等操作功能，以及门店信息，订单信息，库存心等查看的功能。总店有商品，门店，采购，补货，预警，财务，仓库等功能管理。</p>
+            <p> 加盟店端采用原生搭建，总店端采用metronic+bootstrap框架。</p>
+            <p>责任描述：</p>
+            <p>1. 根据项目需求，快速构造原型图 </p>
+            <p> 2. 参与页面的部分设计 </p>
+            <p> 3. 负责加盟店的前端网站搭建以及总店端的页面修改</p>
+          </div>
+        </div>
+      </div>
+      <div class="programe">
+        <div class="work_time">2个月 <br>
+         筑梦航天</div>
+        <div class="work_text">
+          <div class="triangle-left"></div>
+          <div class="exCon">
+            <h4>开发时间：2023 /3--2023 /5</h4>
+            <h5>开发工具：eclipse，webstorm</h5>
+            <p>项目描述：</p>
+            <p>该项目航天简介，可进行偏好的设置，航天的选择，以及飞船内容的测试，适用个人也适用学校集体。 </p>
+            <p>整个网站采用的是Amaze UI的框架。项目展示：<a href="http://代码供大家参考学习使用，学习进步/moban.html">经费不足，没钱购置服务器</a></p>
+            <p>责任描述：</p>
+            <p>1. 根据设计图进行网页的前端搭建。</p>
+            <p>2. 根据客户的要求，进行网页的修改。 </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="down_arrow"> <a class="scroll"><span></span></a> </div>
+</section>
+<section class="page_five" id="page5">
+  <div class="con_wrap">
+    <div class="tit_wrap">
+      <h1>联系我</h1>
+      <div class="scissors"> <span></span> </div>
+      <h2>耐得住寂寞，做得成大事。</h2>
+    </div>
+    <div class="contact_detail">
+      <ul class="con_style">
+        <li> <span></span>
+          <p>重庆市九龙坡区</p>
+        </li>
+        <li> <span></span>
+          <p>3092976135@qq.com</p>
+        </li>
+        <li> <span></span>
+          <p>19123910193</p>
+        </li>
+      </ul>
+      <div class="contact_info">
+        <form action="" method="get">
+          <label>
+          <input type="text" id="username" placeholder="你的名字" required>
+          <p id="check_username"></p>
+          </label>
+          <label>
+          <input type="text" id="usermail" placeholder="你的邮箱" required>
+          <p id="check_usermail"></p>
+          </label>
+          <label>
+          <input type="text" id="usertheme" placeholder="主题" required maxlength="25">
+          <p id="check_usertheme"></p>
+          </label>
+          <label>
+          <textarea id="usercon" placeholder="内容" required></textarea>
+          <p id="check_usercon"></p>
+          </label>
+          <button>发送</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
 </body>
-<!--文字js-->
-<script>
+<script >
+  /****************************************************************
+ *																*		
+ * 						      html01							*
+ *                        代码供大家参考学习使用，学习进步							*
+ *       		  努力创建完善、持续更新插件以及模板			*
+ * 																*
+****************************************************************/
 
-/*
-*项目名: 个人简历
-*创建者: Edit
-*创建时间:2020.2.15 20:40:41
-*联系方式:15622749328(微信同号)
-*描述: 酷炫个人简历
-*/
-
-// Array[Object], ance: 当前children列表. 
-let parentList = []
-let List = [] // Array[Object], ance: 当前children列表. current: 当前子元素遍历下标. 遍历方式从深处开始遍历,"树"的数据结构
-function writeText(item, childArr=[], childIndex, parent=document.querySelector('.text-wrap')) {
-    let data = {}
-    if(childArr.length > 0){
-        data = childArr[childIndex]
-    }else {
-        data = item
-    }
-    let num = 0;
-    let text = data.text ? data.text : ''
-    let dom = document.createElement(data.name)
-    dom.setAttribute('class', data.class || '')
-    parent.appendChild(dom)
-    let timer = setInterval(() => {
-        if(num <= text.length){
-            dom.innerHTML = text.substr(0, num)
-            resume.scrollTop = 100000
-            num++
-        }else{
-            clearInterval(timer)
-            if (data.children) {
-                List.push({
-                    ance: data.children,
-                    current: 0,
-                    length: data.children.length
-                })
-                parentList.push(dom)
-                writeText('', data.children, 0, dom)
-            }else if (childArr.length > 0) {
-                if(childArr.length-1 > childIndex){
-                    writeText('', childArr, ++childIndex, parentList[parentList.length-1])
-                    List[List.length-1].current = List[List.length-1].current + 1
-                }else {
-                    parentList.pop()
-                    filterLength()
-                }
-            }else if (textArr.length-1 > currentIndex_) { // 
-                writeText(textArr[++currentIndex_])
-                parentList = []
-            }
-        }
-    }, 55);
+// 获取id
+function id(obj) {
+    return document.getElementById(obj);
 }
-function filterLength () {
-    for (let i = List.length-1; i >=0; i--) {
-        if(List[i].length-1 == List[i].current){
-            List.pop()
-        }else{
-            List[List.length-1].current = List[List.length-1].current + 1
+// 增加class名称
+function addClass(obj, sClass) { 
+    var aClass = obj.className.split(' ');
+    if (!obj.className) {
+        obj.className = sClass;
+        return;
+    }
+    for (var i = 0; i < aClass.length; i++) {
+        if (aClass[i] === sClass) return;
+    }
+    obj.className += ' ' + sClass;
+}
+
+function removeClass(obj, sClass) { 
+    var aClass = obj.className.split(' ');
+    if (!obj.className) return;
+    for (var i = 0; i < aClass.length; i++) {
+        if (aClass[i] === sClass) {
+            aClass.splice(i, 1);
+            obj.className = aClass.join(' ');
             break;
         }
     }
-    if(List.length>0){
-        writeText('', List[List.length-1].ance, List[List.length-1].current,parentList[parentList.length-1])
-    }else if(textArr.length-1 > currentIndex_){
-        writeText(textArr[++currentIndex_])
-        parentList = []
-    }
 }
 
+function myBrowser(){
+    var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
+    var isOpera = userAgent.indexOf("Opera") > -1;
+    if (isOpera) {
+        return "Opera"
+    }; //判断是否Opera浏览器
+    if (userAgent.indexOf("Firefox") > -1) {
+        return "FF";
+    } //判断是否Firefox浏览器
+    if (userAgent.indexOf("Chrome") > -1){
+  return "Chrome";
+ }
+    if (userAgent.indexOf("Safari") > -1) {
+        return "Safari";
+    } //判断是否Safari浏览器
+    if (userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1 && !isOpera) {
+        return "IE";
+    }; //判断是否IE浏览器
+}
 
+function view() {
+    return {
+        w: document.documentElement.clientWidth || document.body.clientWidth,
+        h: document.documentElement.clientHeight || document.body.clientHeight
+    };
+}
+var viewHeight=function(){
+	var section=document.getElementsByTagName("section");
+	var iheight=view().h;
+	section[0].style.height=iheight;
+	for (var i = 0; i < section.length; i++) {
+		section[i].style.height=iheight+"px";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-*项目名: 个人简历
-*创建者: Edit
-*创建时间:2020.2.15 20:40:41
-*联系方式:15622749328(微信同号)
-*描述: 酷炫个人简历
-*/
-
-let textArr = [
-    {
-        name: 'h2',
-        class: 'inten',
-        text: '求职意向：前端开发工程师'
-    }, {
-        name: 'h4',
-        class: 'text-title',
-        text: '基本信息'
-    }, {
-        name: 'div',
-        class: 'base-info',
-        children: [{
-            name: 'div',
-            children: [{
-                name: 'div',
-                text: '姓名：Edit'
-            },{
-                name: 'div',
-                text: '年龄：23'
-            }]
-        }, {
-            name: 'div',
-            children: [{
-                name: 'div',
-                text: '毕业院校：中山大学南方学院'
-            },{
-                name: 'div',
-                text: '联系电话：15622749328'
-            }]
-        }]
-    }, {
-        name: 'h4',
-        class: 'text-title',
-        text: '教育背景'
-    }, {
-        name: 'div',
-        class: 'school',
-        children: [{
-            name: 'span',
-            class: 'mr',
-            text: '学校：中山大学南方学院'
-        }, {
-            name: 'span',
-            text: '专业：计算机科学与技术'
-        }, {
-            name: 'div',
-            text: '主修课程：HTML、CSS、JavaScript、Vue、JavaEE、MySQL',
-        }]
-    }, {
-        name: 'h4',
-        class: 'text-title',
-        text: '专业技能'
-    }, {
-        name: 'ul',
-        class: 'ul-list',
-        children: [{
-            name: 'li',
-            text:'熟练掌握',
-            children: [{
-                name: 'span',
-                class: 'tag',
-                text: 'H5、CSS3、ES6'
-            }]
-        }, {
-            name: 'li',
-            text:'能熟练运用不同主流UI框架ElementUI及多个移动端UI框架'
-        }, {
-            name: 'li',
-            text:'掌握前端主流',
-            children: [{
-                name: 'span',
-                class: 'tag',
-                text: 'Vue框架'
-            }]
-        }, {
-            name: 'li',
-            text:'熟练掌握',
-            children: [{
-                name: 'span',
-                class: 'tag',
-                text: 'H5混合APP开发'
-            }, {
-                name: 'span',
-                text: '，跨多端技术uni-app、apicloud'
-            }]
-        }, {
-            name: 'li',
-            text:'了解微信小程序开发'
-        }, {
-            name: 'li',
-            text:'熟悉后端语言Java、node.js'
-        }, {
-            name: 'li',
-            text: '熟悉',
-            children: [{
-                name: 'span',
-                class: 'tag',
-                text: 'css预处理器'
-            }, {
-                name: 'span',
-                text: 'sass、stylus以及前端构建工具webpack和npm包管理库'
-            }]
-        }]
-    }, {
-        name: 'h4',
-        class: 'text-title',
-        text: '工作经历'
-    }, {
-        name: 'div',
-        class: 'work', 
-        children:[{
-            name: 'span',
-            class: 'mr',
-            text: '2018.08 — 2019.06'
-        }, {
-            name: 'span',
-            text: 'web前端开发'
-        }]
-    }, {
-        name: 'ul',
-        class: 'ul-list',
-        children: [{
-            name: 'li',
-            text:'担任公司前端技术部主管，负责',
-            children: [{
-                name: 'span',
-                class: 'tag',
-                text: '带领新人、项目安排、BUG解决、产品优化、定期开展技术交流会议'
-            }]
-        }, {
-            name: 'li',
-            text: '负责公司项目开发（web hybridApp、微信公众号H5），其他公司基础项目开发，如PC端商城，企业响应式网站，APP开发！'
-        }]
-    }, {
-        name: 'h4',
-        class: 'text-title',
-        text: '项目经验'
-    }, {
-        name: 'div',
-        class: 'item-lv',
-        children: [{
-            name: 'ul',
-            class: 'ul-list',
-            children: [{
-                name: 'li',
-                class: 'project-title',
-                text: '项目一：宠物商城（混合APP开发）'
-            }, {
-                name: 'li',
-                text: '使用技术栈：YDUI框架、',
-                children: [{
-                    name: 'span',
-                    class: 'tag',
-                    text: 'Vue全家桶、ApiCloud跨多端打包'
-                }]
-            }, {
-                name: 'li',
-                text: '项目描述：基于vue-cli搭建的web应用，多用户商城。功能主要包括商家入驻平台上传个人身份信息、发布宠物信息、会员商家一对一聊天、商城买卖、城市筛选。其中包含收货地址、搜索记录、宠物和商家店铺收藏的CRUD操作'
-            }]
-        }, {
-            name: 'ul',
-            class: 'ul-list',
-            children: [{
-                name: 'li',
-                class: 'project-title',
-                text: '项目二：智慧校园类（混合APP开发）'
-            }, {
-                name: 'li',
-                text: '使用技术栈：',
-                children: [{
-                    name: 'span',
-                    class: 'tag',
-                    text: 'Vue全家桶、'
-                }, {
-                    name: 'span',
-                    text: '滴滴官方'
-                }, {
-                    name: 'span',
-                    class: 'tag',
-                    text: 'cube-ui'
-                }, {
-                    name: 'span',
-                    text: '框架、'
-                }, {
-                    name: 'span',
-                    class: 'tag',
-                    text: 'ApiCloud跨多端打包'
-                }]
-            }, {
-                name: 'li',
-                text: '项目描述：老师发布作业、考勤点到、发布校园动态...家长接收信息，与老师端进行交互'
-            }]
-        }, {
-            name: 'ul',
-            class: 'ul-list',
-            children: [{
-                name: 'li',
-                class: 'project-title',
-                text: '项目三：微信公众号，亲子游商城'
-            }, {
-                name: 'li',
-                text: '使用技术栈：',
-                children: [{
-                    name: 'span',
-                    class: 'tag',
-                    text: 'Vue、Vue-Router、Axios、Stylus'
-                }, {
-                    name: 'span',
-                    text: '、YDUI、Vue-awesome-swiper'
-                }]
-            }, {
-                name: 'li',
-                text: '项目描述：1. Vue-cli脚手架搭建项目'
-            }, {
-                name: 'li',
-                text: '2. 使用Vue-Router做应用页面跳转，路由导航守卫权限控制,params、query传参'
-            }, {
-                name: 'li',
-                text: '3. Axios用做Ajax数据交互，dev环境下配置代理解决跨域，使用createAPI配置baseURL。'
-            }, {
-                name: 'li',
-                text: '4. 使用CSS预处理器stylus简化CSS代码编写，浏览器兼容前缀，rem函数封装。'
-            }, {
-                name: 'li',
-                text: '5. 使用UI框架YDUI，减少不必要的造轮子，提高代码编写效率，用户体验。'
-            }, {
-                name: 'li',
-                text: '6. 使用vue-awesome-swiper轮播图插件。'
-            }]
-        }, {
-            name: 'ul',
-            class: 'ul-list',
-            children: [{
-                name: 'li',
-                class: 'project-title',
-                text: '项目四：企业官网（响应式）、商城（PC)兼容IE8以及多端浏览器'
-            }, {
-                name: 'li',
-                text: '使用技术栈：',
-                children: [{
-                    name: 'span',
-                    class: 'tag',
-                    text: 'jQuery'
-                }]
-            }, {
-                name: 'li',
-                text: 'PC使用兼容写法兼容Ie8、使用渐进增强逐渐增添些许特效，mediaQuery实现网页自适应，移动端样式权重高于PC，完成移动端页面布局。'
-            }]
-        }]
-    }, {
-        name: 'h4',
-        class: 'text-title',
-        text: '自我评价'
-    }, {
-        name: 'ul',
-        class: 'ul-list',
-        children: [{
-            name: 'li',
-            text:'具有',
-            children: [{
-                name: 'span',
-                class: 'tag',
-                text: '团队管理经验'
-            }, {
-                name: 'span',
-                text: '，拥有良好的'
-            }, {
-                name: 'span',
-                class: 'tag',
-                text: '团队协调能力'
-            }, {
-                name: 'span',
-                text: '，工作当中和同事融洽相处'
-            }]
-        }, {
-            name: 'li',
-            text:'常混迹于',
-            children: [{
-                name: 'span',
-                class: 'tag',
-                text: '前端主流社区'
-            }, {
-                name: 'span',
-                text: '（github、掘金、知乎、简书），翻阅前端'
-            }, {
-                name: 'span',
-                class: 'tag',
-                text: '大咖'
-            }, {
-                name: 'span',
-                text: '博客（张鑫旭、阮一峰、黄轶）'
-            }]
-        }, {
-            name: 'li',
-            text:'热爱前端、思维活跃、学习能力强，抗压能力强。'
-        }, {
-            name: 'li',
-            text:'性格随和、诚恳稳重、身体素质较好、能够很快地适应新环境。'
-        }]
-    }
-]
-let style = `
-    /*
-    * 面试官你好，我是Edit，广东惠州人
-    * 为您精心准备一份不一样的简历来介绍自己
-    * 首先准备一些样式
-    */
-    *{
-        transition: all .8s;
-    }
-    /* 稍等，在容器上添加点样式 */
-    #codeEdit{
-        color: #fff;
-        background: #1E1E1E;
-    }
-    #resume{
-        box-shadow: -1px 4px 9px 3px rgba(0, 0, 0, .15);
-    }
-    /* 我需要一点代码高亮 */
-    pre#codeEdit{
-        color: #CE9e78;
-    }
-    .token.selector{
-        color: rgb(230, 155, 43);
-    }
-    .token.comment{
-        color: #6A9955;
-        font-size: 14px;
-    }
-    .token.property{
-        color: #60C8FE;
-    }
-    .token.function {
-        color: #DD4A68;
-    }
-    /* 接下来请欣赏我的个人简历吧 */
-`
-let balloon = `
-    <div class="balloon-wrap">
-        <img src="static/images/balloon.png" id="bg-balloon-small">
-        <img src="static/images/balloon.png" id="bg-balloon-large">
-        <img src="static/images/logo.png" id="bg-balloon-logo">
-    </div>
-    <div class="connect" style="width: 100%; display: flex;"></div>`
-let line = `
-    <div class="line-wrap">
-        <div class="line-left"></div>
-        <div class="line-right">
-            <p class="line-defColor line-item1"></p>
-            <p class="line-darkColor line-item2"></p>
-            <p class="line-defColor line-item3"></p>
-            <p class="line-midColor line-item4"></p>
-            <p class="line-darkColor line-item5"></p>
-            <p class="line-midColor line-item6"></p>
-            <p class="line-darkColor line-item7"></p>
-            <p class="line-midColor line-item7"></p>
-        </div>
-    </div>
-    <div class="connect"></div>`
-let text = `
-    <div class="text-wrap"></div>
-`
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    let currentIndex_ = 0
-    function writeIntro (intro='', time, callback) {
-        let connect = document.querySelectorAll('.connect')
-        if(connect.length < 1){
-            resume.innerHTML = intro
-        }else{
-            connect[connect.length-1].innerHTML = intro
-        }
-        setTimeout(() => {
-            callback()
-        }, time);
-    }
-    function startResume () {
-        writeIntro(balloon, 700, ()=>{
-            writeIntro(line, 200, ()=>{
-                writeIntro(text, 0, ()=>{
-                    writeText(textArr[currentIndex_])
-                })
-            })
-        })
-    }
+	}
+}
+var waited_develop=function(){
+    var waitedli=document.getElementsByClassName("nav_bar_ul")[0].children;
+    // var waiteda=waitedli.children;
+    console.log(waitedli);
+    // console.log(waiteda);
     
-    let num = 0
-    let t = setInterval(() => {
-        if(num <= style.length){
-            codeEdit.innerHTML = Prism.highlight(style.substr(0, num), Prism.languages.css); 
-            codeEdit.scrollTop = 100000
-            styleContent.innerHTML = style.substr(0, num)
-            num++
-        }else{
-            clearInterval(t)
+    for (var i=1;i<waitedli.length;i++){
+        if(waitedli[i].addEventListener){
+            waitedli[i].addEventListener("click",myfunction,false);
+                function myfunction(){
+            alert("待开发");
         }
-    }, 70)
-    setTimeout(() => {
-        if(document.body.clientWidth < 500){
-            setTimeout(() => {
-                resume.style.cssText = 'height:70vh!important'
-            }, 5000);
+
         }
-        startResume()
-    }, 10000);
-</script>
-<script src="static/js/prism.js"></script>
-<script>
-    let sbTimer = null
-    function toggleScrollBar (self) {
-        self = self.target
-        clearTimeout(sbTimer)
-
-        if(self.getAttribute('class') != 'sbShow')
-            self.classList.add('sbShow')
-
-        sbTimer = setTimeout(() => {
-            self.classList.remove('sbShow')
-        }, 800);
+        if(waitedli[i].attachEvent){
+            waitedli[i].attachEvent("onclick",myfunction); 
+            function myfunction(){
+                alert("待开发");
+            }
+        }
     }
+}
+var tagSwitch=function() 
+{
+	var navP=document.getElementById("nav_bar");
+	var next=document.getElementsByClassName("scroll");
+    var con=document.getElementsByTagName("section");
+    var tag=document.getElementsByTagName("aside")[0].children;
+    con[0].style.display="block";
+    tag[0].className="cur_a";
+    for (var i = 0; i < tag.length; i++) {
+    	tag[i].index=i;
+    	tag[i].onclick=function(){
+    		for (var n = 0; n < tag.length; n++) {
+    			tag[n].className="";
+    			con[n].style.display="none";
+    		}
+    		tag[this.index].className="cur_a";
+    		con[this.index].style.display="block";
+    	}
+    }
+    for (var i = 0; i < next.length; i++) {
+    	next[i].index=i;
+    	tag[i].index=i;
+    	next[i].onclick=function(){
+    		for (var n = 0; n < next.length; n++) {
+    			tag[n].className="";
+    			con[n].style.display="none";
+    		}
+    		con[this.index+1].style.display="block";
+    		tag[this.index+1].className="cur_a";
+
+    	}
+    }
+}
+// html5--canvas
+var canvashtml5 = document.getElementById("html5").getContext("2d");
+var canvascss3=document.getElementById("css3").getContext("2d");
+var canvasjs=document.getElementById("js").getContext("2d");
+var canvasjq=document.getElementById("jq").getContext("2d");
+var canvasbs=document.getElementById("bs").getContext("2d");
+var canvasps=document.getElementById("ps").getContext("2d");
+var canwidth=160;
+var radius=70;
+var canhtml5=function(){
+	var deg = 0;
+    var html5T = function(deg){
+        var r = deg*Math.PI/180;   
+        canvashtml5.clearRect(0,0,canwidth,canwidth);   
+        canvashtml5.beginPath();  
+        canvashtml5.strokeStyle = "#F1652A"; 
+        canvashtml5.lineWidth = 10; 
+        canvashtml5.arc(canwidth/2,canwidth/2,radius,0-1/2*Math.PI,r-1/2*Math.PI,false); //
+        canvashtml5.stroke();
+    };
+    var time = setInterval(function(){
+    	var con=document.getElementsByTagName("section")[2];
+    	if (con.style.display=="block") {
+    		deg+=4;
+	        html5T(deg);
+	        if(deg>324){
+	            clearInterval(time);
+	        }
+	    }    
+    },20);
+}
+var cancss3=function(){
+	var deg = 0;
+    var css3T = function(deg){
+        var r = deg*Math.PI/180;   
+       	canvascss3.clearRect(0,0,canwidth,canwidth);   
+        canvascss3.beginPath();  
+        canvascss3.strokeStyle = "#409AD8"; 
+        canvascss3.lineWidth = 10; 
+       	canvascss3.arc(canwidth/2,canwidth/2,radius,0-1/2*Math.PI,r-1/2*Math.PI,false); //
+        canvascss3.stroke();
+    };
+    var time = setInterval(function(){
+    	var con=document.getElementsByTagName("section")[2];
+    	if (con.style.display=="block") {
+    		deg+=4;
+	        css3T(deg);
+	        if(deg>324){
+	            clearInterval(time);
+	        }
+	    }    
+    },20);
+}
+var canvasTotal=function(){
+
+}
+var canjs=function(){
+	var deg = 0;
+    var jsT = function(deg){
+        var r = deg*Math.PI/180;   
+        canvasjs.clearRect(0,0,canwidth,canwidth);   
+        canvasjs.beginPath();  
+        canvasjs.strokeStyle = "#ECB12C"; 
+        canvasjs.lineWidth = 10; 
+        canvasjs.arc(canwidth/2,canwidth/2,radius,0-1/2*Math.PI,r-1/2*Math.PI,false); //
+        canvasjs.stroke();
+    };
+    var time = setInterval(function(){
+    	var con=document.getElementsByTagName("section")[2];
+    	if (con.style.display=="block") {
+    		deg+=4;
+	        jsT(deg);
+	        if(deg>252){
+	            clearInterval(time);
+	        }
+	    }    
+    },20);
+}
+var canjq=function(){
+	var deg = 0;
+    var jqT = function(deg){
+        var r = deg*Math.PI/180;   
+        canvasjq.clearRect(0,0,canwidth,canwidth);   
+        canvasjq.beginPath();  
+        canvasjq.strokeStyle = "#75B143"; 
+        canvasjq.lineWidth = 10; 
+        canvasjq.arc(canwidth/2,canwidth/2,radius,0-1/2*Math.PI,r-1/2*Math.PI,false); //
+        canvasjq.stroke();
+    };
+    var time = setInterval(function(){
+    	var con=document.getElementsByTagName("section")[2];
+    	if (con.style.display=="block") {
+    		deg+=4;
+	        jqT(deg);
+	        if(deg>288){
+	            clearInterval(time);
+	        }
+	    }    
+    },20);
+}
+var canbs=function(){
+	var deg = 0;
+    var bsT = function(deg){
+        var r = deg*Math.PI/180;   
+        canvasbs.clearRect(0,0,canwidth,canwidth);   
+        canvasbs.beginPath();  
+        canvasbs.strokeStyle = "#583F85"; 
+        canvasbs.lineWidth = 10; 
+        canvasbs.arc(canwidth/2,canwidth/2,radius,0-1/2*Math.PI,r-1/2*Math.PI,false); //
+        canvasbs.stroke();
+    };
+    var time = setInterval(function(){
+    	var con=document.getElementsByTagName("section")[2];
+    	if (con.style.display=="block") {
+    		deg+=4;
+	        bsT(deg);
+	        if(deg>288){
+	            clearInterval(time);
+	        }
+	    }    
+    },20);
+}
+
+var ps=function(){
+	var deg = 0;
+    var psT = function(deg){
+        var r = deg*Math.PI/180;   
+        canvasps.clearRect(0,0,canwidth,canwidth);   
+        canvasps.beginPath();  
+        canvasps.strokeStyle = "#031A3A"; 
+        canvasps.lineWidth = 10; 
+        canvasps.arc(canwidth/2,canwidth/2,radius,0-1/2*Math.PI,r-1/2*Math.PI,false); //
+        canvasps.stroke();
+    };
+    var time = setInterval(function(){
+    	var con=document.getElementsByTagName("section")[2];
+    	if (con.style.display=="block") {
+    		deg+=4;
+	        psT(deg);
+	        if(deg>288){
+	            clearInterval(time);
+	        }
+	    }    
+    },20);
+}
+
+//judge
+
+
+var checkUsername=function(){
+	var username=document.getElementById("username").value;
+	var usernamecheck=document.getElementById("check_username");
+	usernamecheck.innerText="";
+	var myreg=/^[\u4e00-\u9fa5 ]{2,20}$/;
+	var myreg1=/^[a-zA-Z\/ ]{2,20}$/;
+	if(username==""||username==null){
+		usernamecheck.innerText="姓名不能为空";
+	}
+	else{
+		if (myreg.test(username)||myreg1.test(username)) {
+		usernamecheck.innerText="";		
+		}
+		else{
+			usernamecheck.innerText="姓名格式错误";
+		}
+	}
+}
+var checkMail=function(){
+	var usermail=document.getElementById("usermail").value;
+	var usermailcheck=document.getElementById("check_usermail");
+	usermailcheck.innerText="";
+	var myreg = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
+	if(usermail==""||usermail==null){
+		usermailcheck.innerText="邮箱不能为空";
+	}
+	else{
+		if (myreg.test(usermail)) {
+		usermailcheck.innerText="";		
+		}
+		else{
+			usermailcheck.innerText="邮箱格式错误";
+		}
+	}
+}
+var checkTheme=function(){
+	var usertheme=document.getElementById("usertheme").value;
+	var userthemecheck=document.getElementById("check_usertheme");
+	userthemecheck.innerText="";
+	if(usertheme==""||usertheme==null){
+		userthemecheck.innerText="主题不能为空";
+	}
+}
+
+var checkCon=function(){
+	var usercon=document.getElementById("usercon").value;
+	var userconcheck=document.getElementById("check_usercon");
+	userconcheck.innerText="";
+	if(usercon==""||usercon==null){
+		userconcheck.innerText="内容不能为空";
+	}
+}
+
+var usernameon=document.getElementById("username");
+usernameon.onblur=checkUsername;
+
+var mymailon=document.getElementById("usermail");
+mymailon.onblur=checkMail;
+
+var mythemeon=document.getElementById("usertheme");
+mythemeon.onblur=checkTheme;
+var myconon=document.getElementById("usercon");
+myconon.onblur=checkCon;
+
+
+
+var scrollFunc = function (e) {
+    var con=document.getElementsByTagName("section");
+        var tag=document.getElementsByTagName("aside")[0].children;  
+    
+    var direct = 0;
+    e = e || window.event;
+    if (e.wheelDelta) {  //判断浏览器IE，谷歌滑轮事件   
+          
+        if (e.wheelDelta > 0) { //当滑轮向上滚动时
+            for (var i = 1; i < tag.length; i++) {
+                if(tag[i].className=="cur_a"){
+                    tag[i].className="";
+                    con[i].style.display="none";
+                    tag[i-1].className="cur_a";
+                    con[i-1].style.display="block";
+                    break;
+                }
+            }
+        }
+        if (e.wheelDelta < 0) { //当滑轮向下滚动时
+            
+            for (var i = 0; i < tag.length-1; i++) {
+                var n=0;
+                if(tag[i].className=="cur_a"){
+                    tag[i].className="";
+                    con[i].style.display="none";  
+                    n=i+1;
+                    tag[n].className="cur_a";
+                    con[n].style.display="block";
+                    break;
+                }
+            }
+
+        }
+    } else if (e.detail) {  //Firefox滑轮事件
+        if (e.detail> 0) { //当滑轮向上滚动时
+            for (var i = 1; i < tag.length; i++) {
+                if(tag[i].className=="cur_a"){
+                    tag[i].className="";
+                    con[i].style.display="none";
+                    tag[i-1].className="cur_a";
+                    con[i-1].style.display="block";
+                    break;
+                }
+            }
+        }
+        if (e.detail< 0) { //当滑轮向下滚动时
+            for (var i = 0; i < tag.length-1; i++) {
+                var n=0;
+                if(tag[i].className=="cur_a"){
+                    tag[i].className="";
+                    con[i].style.display="none";  
+                    n=i+1;
+                    tag[n].className="cur_a";
+                    con[n].style.display="block";
+                    break;
+                }
+            }
+        }
+    }
+    // ScrollText(direct);
+}
+// 给页面绑定滑轮滚动事件
+if (document.addEventListener) {
+    document.addEventListener('DOMMouseScroll', scrollFunc, false);
+}
+// //滚动滑轮触发scrollFunc方法
+
+//以下是调用上面的函数
+var browser = myBrowser();
+if ("IE" == browser) {
+    document.onmousewheel = scrollFunc;  
+}else{
+    window.onmousewheel= scrollFunc;  
+}
+
+viewHeight();
+tagSwitch();
+canhtml5();
+cancss3();
+canjs();
+canjq();
+canbs();
+ps();
+waited_develop();console.log("\u002f\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u000d\u000a\u0020\u002a\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u002a\u0009\u0009\u000d\u000a\u0020\u002a\u0020\u0009\u0009\u0009\u0009\u0009\u0009\u0020\u0020\u0020\u0020\u0020\u0020\u4ee3\u7801\u5e93\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u002a\u000d\u000a\u0020\u002a\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0077\u0077\u0077\u002e\u0064\u006d\u0061\u006b\u0075\u002e\u0063\u006f\u006d\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u002a\u000d\u000a\u0020\u002a\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0009\u0009\u0020\u0020\u52aa\u529b\u521b\u5efa\u5b8c\u5584\u3001\u6301\u7eed\u66f4\u65b0\u63d2\u4ef6\u4ee5\u53ca\u6a21\u677f\u0009\u0009\u0009\u002a\u000d\u000a\u0020\u002a\u0020\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u002a\u000d\u000a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002a\u002f");
+
 </script>
 </html>
