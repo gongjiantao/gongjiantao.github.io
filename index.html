@@ -1268,7 +1268,7 @@ function renderMenus() {
     case MENU_SCORE:
       finalScoreLblNode.textContent = formatNumber(state.game.score);
       if (isNewHighScore()) {
-        highScoreLblNode.textContent = 'New High Score!';
+        highScoreLblNode.textContent = '新高分!';
       } else {
         highScoreLblNode.textContent = `最高得分: ${formatNumber(getHighScore())}`;
       }
